@@ -1,5 +1,3 @@
-from django.shortcuts import render
-# Create your views here.
 from django.shortcuts import render, redirect
 from rest_framework.views import APIView
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm

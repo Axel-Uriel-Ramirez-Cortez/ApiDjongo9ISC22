@@ -22,7 +22,7 @@ urlpatterns = [
   
   
  #path('admin/', admin.site.urls),
-     path('', Home.as_view(),name='index'),
+     path('', Home.as_view(),name='index.html'),
      path('about/', About.as_view(),name='about'),
      path('blog/', Blog.as_view(),name='blog'),
      path('contact/', Contact.as_view(),name='contact'),
